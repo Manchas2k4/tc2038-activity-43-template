@@ -18,7 +18,7 @@ Implementa, <span style="text-decoration-line: underline;">en equipos de 2 perso
 El programa recibe un número entero, *N*, que indica la cantidad de puntos que se procesarán. A continuación, *N* líneas conteniendo un punto en plano cartesiano, *x* y *y*.
 
 ## <span style="color: rgb(26, 99, 169);">**Salida**</span>
-Deberá desplegar cuál es la distancia más corta entre dos puntos.
+Deberá desplegar cuál es la distancia más corta entre dos puntos (con 5 decimales de precisión), así cómo cuál fue el par más cercano.
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
@@ -33,7 +33,8 @@ Deberá desplegar cuál es la distancia más corta entre dos puntos.
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de salida**</span>
 ```
-The closest distance of point in array is: 1.41421
+The closest distance of point in array is 1.41421
+The closest pair of point in array (2, 3) and (3, 4)
 
 ```
 

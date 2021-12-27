@@ -1,1 +1,2 @@
-The closest distance of point in array is: 21.2132
+The closest distance of point in array is 21.21320
+The closest pair of point in array (1703, -5097) and (1700, -5076)
