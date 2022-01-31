@@ -1,2 +1,5 @@
-The closest distance of point in array is 21.21320
-The closest pair of point in array (1703, -5097) and (1700, -5076)
+number = 1058 using binary search = 1, using randomize binary search = 5
+number = 1779 using binary search = 8, using randomize binary search = 11
+number = 2120 using binary search = -1, using randomize binary search = -1
+number = 1680 using binary search = 4, using randomize binary search = 12
+number = 772 using binary search = 8, using randomize binary search = 8

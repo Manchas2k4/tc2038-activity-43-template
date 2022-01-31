@@ -12,31 +12,31 @@ En este repositorio encontrarás el archivo "main.cpp". En este archivo deberás
 // Date: 01/01/2021
 // =========================================================
 ```
-Implementa, <span style="text-decoration-line: underline;">en equipos de 2 personas (máximo)</span>, una solución para el problema del par de puntos más cercanos.
+Implementa, <span style="text-decoration-line: underline;">en equipos de 2 personas (máximo)</span>, un programa en C++ que implemente el algoritmo Randomized Binary Search Algorithm para determinar si un número entero en un conjunto de números enteros, a través del método Las Vegas Randomized Algorithm, en la siguiente referencia se puede consultar este método: [Randomized Algorithms](https://www.geeksforgeeks.org/randomized-algorithms-set-2-classification-and-applications/)
 
 ## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
-El programa recibe un número entero, *N*, que indica la cantidad de puntos que se procesarán. A continuación, *N* líneas conteniendo un punto en plano cartesiano, *x* y *y*.
+El programa recibe un número entero, *N*, la cantidad de números enteros a leer. En la siguiente línea, encontrarás *N* números enteros. A continuación, un número entero, *Q*, la cantidad de números a buscar. Por último, los *Q* números enteros a buscar.
 
 ## <span style="color: rgb(26, 99, 169);">**Salida**</span>
-Deberá desplegar cuál es la distancia más corta entre dos puntos (con 5 decimales de precisión), así cómo cuál fue el par más cercano.
+Deberá desplegar la cantidad de búsquedas realizadas usando la búsqueda binaria tradicional y la cantidad de búsquedas realizadas usando el algoritmo de búsdqueda binaria aleatorizado. En caso de que alguna búsqueda no encuentre el número, deberá regresar -1.
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
-6
-2 3
-12 30
-40 50
-5 1
-12 10
-3 4
+10
+8 11 13 2 10 2 17 18 0 5
+3
+8 1 17
+
 ```
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de salida**</span>
 ```
-The closest distance of point in array is 1.41421
-The closest pair of point in array (2, 3) and (3, 4)
+number = 8 using binary search = 1, using randomize binary search = 2
+number = 1 using binary search = -1, using randomize binary search = -1
+number = 17 using binary search = 3, using randomize binary search = 4
 
 ```
+**IMPORTANTE:** El número de búsquedas realizadas usando la versión aleatorizada puede variar.
 
 Para probar tu implementación, compila tu programa con el comando:
 ```
@@ -45,9 +45,7 @@ g++ -std=c++11 main.cpp -o app
 Posteriormente, ejecuta tu programa. Para realizar las pruebas, puedes usar las siguientes líneas de código.
 ```
 ./app > mysolution.txt
-diff mysolution.txt solution.txt
 ```
-Si el segundo comando no tiene ninguna salida, los resultados que obtuviste son los esperados.
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
